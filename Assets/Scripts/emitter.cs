@@ -21,7 +21,7 @@ public class emitter : MonoBehaviour
         t = t + Time.deltaTime;
         if(t>=delay)
         {
-            createAsteroids();
+            // createAsteroids();
             t = 0f;
         }
     }
